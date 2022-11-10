@@ -1,0 +1,25 @@
+//creating a class addition program
+#include<iostream>
+using namespace std;
+class addition
+{
+    public:
+    int a, b, c;
+    int product ()
+    {
+        return(a*b*c);
+    }
+        
+    };
+    int main()
+    {
+    addition sum1;
+    int i, j, k, mult;
+    i=sum1.a=22;
+    j=sum1.b=30;
+    k=sum1.c=50;
+    mult=sum1.product();
+    cout<<"mult is"<<mult<<endl;
+    return 0;
+    
+}
